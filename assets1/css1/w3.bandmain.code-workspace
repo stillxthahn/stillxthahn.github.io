@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../w3.bandmain"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "w3.bandprac"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	}
+}
