@@ -71,7 +71,7 @@ html {
     background-color: black;
     position: fixed;
     z-index: 1;
-    overflow: hidden;
+    
 }
 
 #nav {
@@ -131,6 +131,13 @@ html {
 
 #nav .down-btn {
     font-size: 12px;
+}
+
+#header .mobile-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
 }
 
 #header .mobile-menu,
@@ -533,3 +540,4 @@ html {
 #footer .copyright a  {
     color: rgba(0, 0, 0, 0.6);
 }
+

@@ -7,7 +7,9 @@
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
-
+    /* .modal-container {
+        max-width: 500px;
+    } */
 } 
 
 /* Mobile */
@@ -15,10 +17,40 @@
     #nav > li {
         display: block;
     }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav li .subnav {
+        position: initial;
+        /* Initial - Reset về giá trị mặc định */
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        background-color: #333;
+        padding: 5px 41px;
+        line-height: 46px;
+    }
+
     .search-btn {
         display: none;
     }
+
     #header {
+        overflow: hidden;
         margin-right: 21px;
     }
+    
+    #nav {
+        display: block;
+    }
+
+  
+
+    #header .mobile-menu {
+        display: block;
+    }
+   
 }
