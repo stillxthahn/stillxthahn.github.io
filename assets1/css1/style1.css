@@ -166,7 +166,7 @@ html {
     position: relative;
     margin-top: 46.5px;
     padding-top: 50%;
-    background: url('/assets1/img1/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('../img1/slider/slider1.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -189,6 +189,7 @@ html {
 #slider .text-des {
     font-size: 15px;
     font-weight: 700;
+    text-shadow: 0 0 1px #000;
 }
 
 
